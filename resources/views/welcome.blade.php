@@ -10,7 +10,7 @@
         
         <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
             <div class="flex flex-col gap-12 items-center">
-                <div class="text-center w-full h-[50vh]">
+                <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[40vh]">
                     
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
                         Ticketing System Built for <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
