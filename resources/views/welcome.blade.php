@@ -9,8 +9,8 @@
         <div class="absolute inset-0 opacity-10 bg-grid-pattern -z-10"></div>
         
         <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
+            <div class="flex flex-col gap-12 items-center">
+                <div class="text-center w-full">
                     <div class="inline-flex items-center px-4 py-2 rounded-full bg-[#E6F7E6] dark:bg-[#0F3D0F] text-[#2E7D32] dark:text-[#7ED957] text-sm font-medium mb-6">
                         <span class="mr-2">✨</span> Simplify customer support
                     </div>
@@ -18,9 +18,9 @@
                         Customer support <span class="text-[#7ED957]">made simple</span>
                     </h1>
                     <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-8">
-                        SafariDesk helps teams deliver exceptional customer service with a powerful, intuitive ticketing system that streamlines support workflows.
+                        Designed for customer support teams across industries <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4">
+                    <div class="flex w-full flex-col justify-center sm:flex-row gap-4">
                         <a href="/register" class="px-8 py-4 rounded-lg bg-[#7ED957] text-[#1b1b18] font-semibold text-lg shadow-lg shadow-[#7ED957]/20 hover:bg-[#5bbf3a] transition">Get Started</a>
                         <a href="/features" class="px-8 py-4 rounded-lg border border-[#e3e3e0] dark:border-[#2e2e2b] text-[#1b1b18] dark:text-white font-semibold text-lg hover:bg-[#1b1b18] hover:text-white dark:hover:bg-white dark:hover:text-[#1b1b18] transition">See Features</a>
                     </div>
@@ -245,4 +245,38 @@
             </div>
         </div>
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const container = document.getElementById('type-animation');
+            if (container) {
+                const words = ['schools', 'SMBs', 'healthcare', 'real estate', 'and so much more'];
+                let i = 0;
+                let char = 0;
+                let typing = true;
+                function type() {
+                    if (typing) {
+                        if (char < words[i].length) {
+                            container.textContent += words[i][char];
+                            char++;
+                            setTimeout(type, 80);
+                        } else {
+                            typing = false;
+                            setTimeout(type, 1200);
+                        }
+                    } else {
+                        if (char > 0) {
+                            container.textContent = words[i].slice(0, char - 1);
+                            char--;
+                            setTimeout(type, 40);
+                        } else {
+                            typing = true;
+                            i = (i + 1) % words.length;
+                            setTimeout(type, 300);
+                        }
+                    }
+                }
+                type();
+            }
+        });
+    </script>
 @endsection
