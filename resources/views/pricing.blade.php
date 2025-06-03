@@ -41,30 +41,30 @@
     <section class="py-16 bg-white dark:bg-[#0a0a0a]">
         <div class="container mx-auto px-4">
             <div class="max-w-xl mx-auto">
-                <div class="relative rounded-xl overflow-hidden border-green-500 shadow-lg shadow-green-500/10 border-2 hover:shadow-xl transition-all duration-300 group bg-gradient-to-br from-green-100/60 via-white/40 to-green-200/60 dark:from-gray-800/60 dark:via-gray-900/40 dark:to-green-900/60 backdrop-blur-xl backdrop-saturate-150">
+                <div class="relative rounded-xl overflow-hidden border-[#7ED957] shadow-lg shadow-green-500/10 border-2 hover:shadow-xl transition-all duration-300 group bg-gradient-to-br from-green-100/60 via-white/40 to-green-200/60 dark:from-gray-800/60 dark:via-gray-900/40 dark:to-green-900/60 backdrop-blur-xl backdrop-saturate-150">
                     <div class="p-8 relative z-10 h-full flex flex-col">
                         <h3 class="text-2xl font-bold mb-2 text-[#1b1b18] dark:text-white">Basic</h3>
                         
                         <div class="monthly-price">
                             <div class="mt-2 flex items-baseline gap-4">
-                                <span class="text-3xl font-extrabold text-green-600 dark:text-green-400">$15</span>
+                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$15</span>
                                 <span class="text-lg text-gray-600 dark:text-gray-400">per agent / month</span>
                             </div>
                         </div>
                         
                         <div class="annual-price hidden">
                             <div class="mt-2 flex items-baseline gap-4">
-                                <span class="text-3xl font-extrabold text-green-600 dark:text-green-400">$120</span>
+                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$120</span>
                                 <span class="text-lg text-gray-600 dark:text-gray-400">per agent / year</span>
                             </div>
-                            <div class="mt-1 text-green-600 dark:text-green-400 text-base font-semibold">
+                            <div class="mt-1 text-[#7ED957] dark:text-[#7ED957] text-base font-semibold">
                                 Save 33% with annual billing
                             </div>
                         </div>
                         
-                        <p class="mt-4 font-bold bg-gradient-to-r from-green-500 via-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                        <p class="mt-4 font-bold bg-gradient-to-r from-[#7ED957] via-yellow-400 to-orange-500 bg-clip-text text-transparent">
                             <span>
-                                <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="inline-block mr-2 text-[#7ED957]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#7ED957" fill-opacity="0.2" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                     <path d="M8 12L11 15L16 10" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
@@ -74,61 +74,61 @@
                         
                         <ul class="mt-6 space-y-3 flex-grow text-gray-700 dark:text-gray-200">
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Ticket creation and management via email
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 SLA management with response time tracking
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Internal notes and team collaboration tools
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Basic reporting and analytics dashboard
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 One knowledge base (FAQ/Help Center)
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Automation rules (up to 5)
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 File attachments and media support
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Role-based access and permissions
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Email notifications and alerts
                             </li>
                             <li class="flex items-start">
-                                <svg class="flex-shrink-0 w-5 h-5 text-green-500 mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="flex-shrink-0 w-5 h-5 text-[#7ED957] mt-1 mr-2" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M5 12L10 17L20 7" stroke="#7ED957" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 Community support access
@@ -137,7 +137,7 @@
                         
                         <div class="mt-8">
                             <a href="/register">
-                                <button class="cursor-pointer w-full px-6 py-3 rounded-md font-medium bg-green-500 hover:bg-green-600 text-white transition-colors">
+                                <button class="cursor-pointer w-full px-6 py-3 rounded-md font-medium bg-[#7ED957] hover:bg-[#5bbf3a] text-white transition-colors">
                                     Start Your Safari
                                 </button>
                             </a>
