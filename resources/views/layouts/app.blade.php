@@ -62,8 +62,7 @@
                         </svg>
                     </button>
                     <div class="hidden md:flex md:items-center md:space-x-4">
-                        <a href="/login" class="text-sm font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Sign in</a>
-                        <a href="/register" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-[#1b1b18] bg-[#7ED957] hover:bg-[#5bbf3a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7ED957] transition">Sign up</a>
+                        <a href="/register" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-[#1b1b18] bg-[#7ED957] hover:bg-[#5bbf3a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7ED957] transition">Get Started</a>
                     </div>
                     
                     <!-- Mobile menu button -->

@@ -10,20 +10,16 @@
         
         <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
             <div class="flex flex-col gap-12 items-center">
-                <div class="text-center w-full">
-                    <div class="inline-flex items-center px-4 py-2 rounded-full bg-[#E6F7E6] dark:bg-[#0F3D0F] text-[#2E7D32] dark:text-[#7ED957] text-sm font-medium mb-6">
-                        <span class="mr-2">✨</span> Simplify customer support
-                    </div>
+                <div class="text-center w-full h-[50vh]">
+                    
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
-                        Customer support <span class="text-[#7ED957]">made simple</span>
+                        Ticketing System Built for <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
+             
                     </h1>
                     <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-8">
-                        Designed for customer support teams across industries <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
+                        Ticketing systems for customer support teams
                     </p>
-                    <div class="flex w-full flex-col justify-center sm:flex-row gap-4">
-                        <a href="/register" class="px-8 py-4 rounded-lg bg-[#7ED957] text-[#1b1b18] font-semibold text-lg shadow-lg shadow-[#7ED957]/20 hover:bg-[#5bbf3a] transition">Get Started</a>
-                        <a href="/features" class="px-8 py-4 rounded-lg border border-[#e3e3e0] dark:border-[#2e2e2b] text-[#1b1b18] dark:text-white font-semibold text-lg hover:bg-[#1b1b18] hover:text-white dark:hover:bg-white dark:hover:text-[#1b1b18] transition">See Features</a>
-                    </div>
+                    
                 </div>
                 <div class="relative">
                     <div class="relative bg-white dark:bg-[#1b1b18] rounded-xl shadow-xl overflow-hidden border border-[#e3e3e0] dark:border-[#2e2e2b]">
@@ -262,7 +258,7 @@
                             setTimeout(type, 80);
                         } else {
                             typing = false;
-                            setTimeout(type, 1200);
+                            setTimeout(type, 2000);
                         }
                     } else {
                         if (char > 0) {
@@ -281,3 +277,4 @@
         });
     </script>
 @endsection
+
