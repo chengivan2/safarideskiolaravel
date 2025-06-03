@@ -26,8 +26,9 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <div class="absolute -inset-0.5 bg-gradient-to-r from-[#7ED957] to-[#5bbf3a] rounded-2xl blur opacity-30 dark:opacity-40"></div>
                     <div class="relative bg-white dark:bg-[#1b1b18] rounded-xl shadow-xl overflow-hidden border border-[#e3e3e0] dark:border-[#2e2e2b]">
+                                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/50 to-white/80 dark:via-black/50 dark:to-black/80 pointer-events-none"></div>
+
                         <img src="/images/safari-desk-sign-up-page.jpg" alt="SafariDesk Dashboard" class="w-full h-auto">
                     </div>
                 </div>
@@ -249,7 +250,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             const container = document.getElementById('type-animation');
             if (container) {
-                const words = ['schools', 'SMBs', 'healthcare', 'real estate', 'and so much more'];
+                const words = ['schools', 'SMBs', 'healthcare', 'real estate', 'logistics', 'and so much more'];
                 let i = 0;
                 let char = 0;
                 let typing = true;

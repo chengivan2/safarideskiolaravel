@@ -38,8 +38,13 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="/" class="flex-shrink-0 flex items-center">
-                        <img class="h-8 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
+                    <a href="/" class="flex flex-row gap-md items-center">
+                        <img class="h-14 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
+                        <span
+                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none"
+                        >
+                            SafariDesk
+                        </span>
                     </a>
                     <nav class="hidden md:ml-8 md:flex md:space-x-8">
                         <a href="/" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Home</a>
@@ -99,8 +104,14 @@
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="col-span-1 md:col-span-1">
-                    <img class="h-8 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
-                    <p class="mt-4 text-sm text-[#a3a3a0]">
+<a href="/" class="flex flex-row gap-md items-center">
+                        <img class="h-14 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
+                        <span
+                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none"
+                        >
+                            SafariDesk
+                        </span>
+                    </a>                    <p class="mt-4 text-sm text-[#a3a3a0]">
                         Streamline your customer support with our powerful ticketing system.
                     </p>
                     <div class="mt-6 flex space-x-6">
