@@ -10,14 +10,14 @@
         
         <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
             <div class="flex flex-col gap-12 items-center">
-                <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[40vh]">
+                <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[40vh] px-2 md:px-6 lg:px-12">
                     
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
-                        Ticketing System Built for <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
+                        Help Desk ticketing system Built for  <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
              
                     </h1>
                     <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-8">
-                        Ticketing systems for customer support teams
+                        A help desk solution designed specifically for customer support teams
                     </p>
                     
                 </div>
@@ -246,7 +246,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             const container = document.getElementById('type-animation');
             if (container) {
-                const words = ['schools', 'SMBs', 'healthcare', 'real estate', 'logistics', 'and so much more'];
+                const words = ['SMBs', 'startups', 'schools', 'IT support', 'non-profits', 'and more'];
                 let i = 0;
                 let char = 0;
                 let typing = true;
