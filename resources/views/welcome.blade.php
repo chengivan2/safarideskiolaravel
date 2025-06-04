@@ -9,7 +9,7 @@
     <div class="absolute inset-0 opacity-10 bg-grid-pattern -z-10"></div>
 
     <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
-        <div class="flex flex-col gap-12 items-center">
+        <div class="flex flex-col gap-5 items-center">
             <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[60vh] px-2 md:px-6 lg:px-12">
 
                 <h1 class="max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
