@@ -46,6 +46,9 @@
                             SafariDesk
                         </span>
                     </a>
+                </div>
+
+                <div class="flex items-center">
                     <nav class="hidden md:ml-8 md:flex md:space-x-8">
                         <a href="/" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Home</a>
                         <a href="/features" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Features</a>
