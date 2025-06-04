@@ -10,7 +10,7 @@
 
     <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div class="flex flex-col gap-5 items-center">
-            <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[60vh] px-2 md:px-6 lg:px-12">
+            <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[50vh] px-2 md:px-6 lg:px-12">
 
                 <h1 class="max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
                     Help Desk Software Built for <span id="type-animation" class="font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent"></span>
@@ -22,12 +22,60 @@
 
             </div>
             <!-- Scroll Indicator -->
-            <div class="flex flex-col items-center mt-8">
+            <div class="flex flex-col items-center my-2">
                 <span class="text-[#7ED957] text-sm mb-2">Scroll Down</span>
-                <div class="w-6 h-10 border-2 border-[#7ED957] rounded-full flex items-start justify-center relative">
-                    <div class="w-2 h-2 bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 rounded-full mt-1 animate-bounce"></div>
+                <div class="flex flex-col items-center space-y-1">
+                    <svg class="w-6 h-6 text-[#7ED957] animate-shimmer-down delay-0" fill="none" viewBox="0 0 24 24">
+                        <path d="M12 16l-5-5h10l-5 5z" fill="currentColor" />
+                    </svg>
+                    <svg class="w-6 h-6 text-[#7ED957] animate-shimmer-down delay-150" fill="none" viewBox="0 0 24 24">
+                        <path d="M12 16l-5-5h10l-5 5z" fill="currentColor" />
+                    </svg>
+                    <svg class="w-6 h-6 text-[#7ED957] animate-shimmer-down delay-300" fill="none" viewBox="0 0 24 24">
+                        <path d="M12 16l-5-5h10l-5 5z" fill="currentColor" />
+                    </svg>
                 </div>
             </div>
+            <style>
+                @keyframes shimmer-down {
+                    0% {
+                        opacity: 0.3;
+                        transform: translateY(0);
+                    }
+
+                    30% {
+                        opacity: 1;
+                        transform: translateY(6px);
+                    }
+
+                    60% {
+                        opacity: 0.3;
+                        transform: translateY(12px);
+                    }
+
+                    100% {
+                        opacity: 0.3;
+                        transform: translateY(0);
+                    }
+                }
+
+                .animate-shimmer-down {
+                    animation: shimmer-down 1.5s infinite;
+                }
+
+                .delay-0 {
+                    animation-delay: 0s;
+                }
+
+                .delay-150 {
+                    animation-delay: 0.15s;
+                }
+
+                .delay-300 {
+                    animation-delay: 0.3s;
+                }
+            </style>
+
             <div class="relative">
                 <div class="max-w-7xl mx-auto px-6">
                     <div class="text-center max-w-3xl mx-auto mb-16">
@@ -40,7 +88,29 @@
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-                        <!-- Card 1: Ticketing Workspace -->
+                        <!-- Card 1: Dashboard & Analytics -->
+                        <div class="group relative bg-white dark:bg-[#1b1b18] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.01]">
+                            <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-lime-400/10 to-orange-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            <div class="relative h-64 overflow-hidden">
+                                <img src="/images/safaridesk-dashboard-support-overview.jpg" alt="Dashboard & Analytics" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 p-6">
+                                    <h3 class="text-2xl font-bold text-white mb-2 transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">Dashboard & Analytics</h3>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <p class="text-[#706f6c] dark:text-gray-300 mb-6">
+                                    Gain valuable insights into your support performance with comprehensive analytics and reporting.
+                                </p>
+                                <a href="/features" class="inline-flex items-center font-medium transition-colors">
+                                    <span class="bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent group-hover:from-green-600 group-hover:via-lime-500 group-hover:to-orange-500">View Analytics Features</span>
+                                    <svg class="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform text-orange-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card 2: Ticketing Workspace -->
                         <div class="group relative bg-white dark:bg-[#1b1b18] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.01]">
                             <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-lime-400/10 to-orange-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                             <div class="relative h-64 overflow-hidden">
@@ -64,7 +134,7 @@
                             </div>
                         </div>
 
-                        <!-- Card 2: Tasks Workspace -->
+                        <!-- Card 3: Tasks Workspace -->
                         <div class="group relative bg-white dark:bg-[#1b1b18] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.01]">
                             <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-lime-400/10 to-orange-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                             <div class="relative h-64 overflow-hidden">
@@ -80,29 +150,6 @@
                                 </p>
                                 <a href="/features" class="inline-flex items-center font-medium transition-colors">
                                     <span class="bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent group-hover:from-green-600 group-hover:via-lime-500 group-hover:to-orange-500">Discover Task Management</span>
-                                    <svg class="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform text-orange-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3: Dashboard & Analytics -->
-                        <div class="group relative bg-white dark:bg-[#1b1b18] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-[1.01]">
-                            <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-lime-400/10 to-orange-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                            <div class="relative h-64 overflow-hidden">
-                                <img src="/images/safaridesk-dashboard-support-overview.jpg" alt="Dashboard & Analytics" class="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                                <div class="absolute bottom-0 left-0 p-6">
-                                    <h3 class="text-2xl font-bold text-white mb-2 transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">Dashboard & Analytics</h3>
-                                </div>
-                            </div>
-                            <div class="p-6">
-                                <p class="text-[#706f6c] dark:text-gray-300 mb-6">
-                                    Gain valuable insights into your support performance with comprehensive analytics and reporting.
-                                </p>
-                                <a href="/features" class="inline-flex items-center font-medium transition-colors">
-                                    <span class="bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent group-hover:from-green-600 group-hover:via-lime-500 group-hover:to-orange-500">View Analytics Features</span>
                                     <svg class="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform text-orange-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
