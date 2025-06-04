@@ -12,8 +12,8 @@
             <div class="flex flex-col gap-12 items-center">
                 <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[40vh] px-2 md:px-6 lg:px-12">
                     
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
-                        Help Desk ticketing system Built for  <span id="type-animation" class="font-semibold text-[#7ED957]"></span>
+                    <h1 class="max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
+                        Help Desk Software Built for  <span id="type-animation" class="font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent"></span>
              
                     </h1>
                     <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-8">
@@ -25,7 +25,7 @@
                     <div class="relative bg-white dark:bg-[#1b1b18] rounded-xl shadow-xl overflow-hidden border border-[#e3e3e0] dark:border-[#2e2e2b]">
                                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-white/50 to-white/80 dark:via-black/50 dark:to-black/80 pointer-events-none"></div>
 
-                        <img src="/images/safari-desk-sign-up-page.jpg" alt="SafariDesk Dashboard" class="w-full h-auto">
+                        <img src="/images/safari-desk-sign-up-page.jpg" alt="SafariDesk Dashboard" class="max-w-4xl mx-auto h-auto">
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             const container = document.getElementById('type-animation');
             if (container) {
-                const words = ['SMBs', 'startups', 'schools', 'IT support', 'non-profits', 'and more'];
+                const words = ['SMBs', 'startups', 'schools', 'IT support', 'non-profits', 'Saas', 'e-commerce', 'agencies', 'healthcare', 'government'];
                 let i = 0;
                 let char = 0;
                 let typing = true;
