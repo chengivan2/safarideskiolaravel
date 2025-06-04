@@ -54,3 +54,41 @@ body {
 .dark ::-webkit-scrollbar-thumb:hover {
     background: #3e3e3b;
 }
+
+@keyframes shimmer-down {
+    0% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+
+    30% {
+        opacity: 1;
+        transform: translateY(6px);
+    }
+
+    60% {
+        opacity: 0.3;
+        transform: translateY(12px);
+    }
+
+    100% {
+        opacity: 0.3;
+        transform: translateY(0);
+    }
+}
+
+.animate-shimmer-down {
+    animation: shimmer-down 1.5s infinite;
+}
+
+.delay-0 {
+    animation-delay: 0s;
+}
+
+.delay-150 {
+    animation-delay: 0.15s;
+}
+
+.delay-300 {
+    animation-delay: 0.3s;
+}

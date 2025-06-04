@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title', 'SafariDesk - Ticketing System')</title>
-    
+
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -28,10 +29,11 @@
             },
         }
     </script>
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
 </head>
+
 <body class="antialiased bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] dark:text-white min-h-screen flex flex-col">
     <!-- Header -->
     <header class="sticky top-0 z-50 w-full backdrop-blur-md bg-white/80 dark:bg-[#0a0a0a]/80 border-b border-[#e3e3e0] dark:border-[#2e2e2b]">
@@ -41,8 +43,7 @@
                     <a href="/" class="flex flex-row gap-md items-center">
                         <img class="h-14 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
                         <span
-                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none"
-                        >
+                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none">
                             SafariDesk
                         </span>
                     </a>
@@ -67,7 +68,7 @@
                     <div class="hidden md:flex md:items-center md:space-x-4">
                         <a href="/register" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-[#1b1b18] bg-[#7ED957] hover:bg-[#5bbf3a] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7ED957] transition">Get Started</a>
                     </div>
-                    
+
                     <!-- Mobile menu button -->
                     <div class="flex items-center md:hidden">
                         <button type="button" id="mobileMenuButton" class="inline-flex items-center justify-center p-2 rounded-md text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
@@ -83,7 +84,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Mobile menu, show/hide based on menu state -->
         <div class="hidden md:hidden" id="mobile-menu">
             <div class="pt-2 pb-3 space-y-1 border-t border-[#e3e3e0] dark:border-[#2e2e2b]">
@@ -95,25 +96,25 @@
             </div>
         </div>
     </header>
-    
+
     <!-- Main Content -->
     <main class="flex-grow">
         @yield('content')
     </main>
-    
+
     <!-- Footer -->
     <footer class="bg-[#1b1b18] text-white">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="col-span-1 md:col-span-1">
-<a href="/" class="flex flex-row gap-md items-center">
+                    <a href="/" class="flex flex-row gap-md items-center">
                         <img class="h-14 w-auto" src="/images/safaridesk-logo-no-bg.png" alt="SafariDesk Logo">
                         <span
-                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none"
-                        >
+                            class="flex items-center text-3xl font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent select-none">
                             SafariDesk
                         </span>
-                    </a>                    <p class="mt-4 text-sm text-[#a3a3a0]">
+                    </a>
+                    <p class="mt-4 text-sm text-[#a3a3a0]">
                         Streamline your customer support with our powerful ticketing system.
                     </p>
                     <div class="mt-6 flex space-x-6">
@@ -137,7 +138,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-span-1">
                     <h3 class="text-sm font-semibold text-white tracking-wider uppercase">Product</h3>
                     <ul class="mt-4 space-y-4">
@@ -155,7 +156,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="col-span-1">
                     <h3 class="text-sm font-semibold text-white tracking-wider uppercase">Company</h3>
                     <ul class="mt-4 space-y-4">
@@ -173,7 +174,7 @@
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="col-span-1">
                     <h3 class="text-sm font-semibold text-white tracking-wider uppercase">Legal</h3>
                     <ul class="mt-4 space-y-4">
@@ -189,7 +190,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="mt-12 border-t border-[#2e2e2b] pt-8">
                 <p class="text-sm text-[#a3a3a0]">
                     &copy; 2025 SafariDesk, Inc. All rights reserved.
@@ -197,10 +198,10 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- Dark Mode Script -->
     <script src="/js/darkMode.js"></script>
-    
+
     <!-- Mobile Menu Script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -208,10 +209,10 @@
             const mobileMenu = document.getElementById('mobile-menu');
             const openIcon = mobileMenuButton.querySelector('svg:first-child');
             const closeIcon = mobileMenuButton.querySelector('svg:last-child');
-            
+
             mobileMenuButton.addEventListener('click', function() {
                 const isOpen = mobileMenu.classList.toggle('hidden');
-                
+
                 if (isOpen) {
                     openIcon.classList.remove('hidden');
                     closeIcon.classList.add('hidden');
@@ -222,8 +223,9 @@
             });
         });
     </script>
-    
+
     <!-- Page-specific scripts -->
     @yield('scripts')
 </body>
+
 </html>

@@ -10,7 +10,7 @@
 
     <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div class="flex flex-col gap-5 items-center">
-            <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[50vh] px-2 md:px-6 lg:px-12">
+            <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[55vh] px-2 md:px-6 lg:px-12">
 
                 <h1 class="max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
                     Help Desk Software Built for <span id="type-animation" class="font-bold bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent"></span>
@@ -36,47 +36,8 @@
                     </svg>
                 </div>
             </div>
-            <style>
-                @keyframes shimmer-down {
-                    0% {
-                        opacity: 0.3;
-                        transform: translateY(0);
-                    }
 
-                    30% {
-                        opacity: 1;
-                        transform: translateY(6px);
-                    }
-
-                    60% {
-                        opacity: 0.3;
-                        transform: translateY(12px);
-                    }
-
-                    100% {
-                        opacity: 0.3;
-                        transform: translateY(0);
-                    }
-                }
-
-                .animate-shimmer-down {
-                    animation: shimmer-down 1.5s infinite;
-                }
-
-                .delay-0 {
-                    animation-delay: 0s;
-                }
-
-                .delay-150 {
-                    animation-delay: 0.15s;
-                }
-
-                .delay-300 {
-                    animation-delay: 0.3s;
-                }
-            </style>
-
-            <div class="relative">
+            <div class="relative my-2">
                 <div class="max-w-7xl mx-auto px-6">
                     <div class="text-center max-w-3xl mx-auto mb-16">
                         <h2 class="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent">
