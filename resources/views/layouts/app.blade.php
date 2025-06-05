@@ -155,7 +155,7 @@
                             <a href="/pricing" class="text-sm text-[#a3a3a0] hover:text-white">Pricing</a>
                         </li>
                         <li>
-                            <a href="https://supportsystem.com/compliance/" target="_blank" class="text-sm text-[#a3a3a0] hover:text-white">Compliance & Security</a>
+                            <a href="/compliance" target="_blank" class="text-sm text-[#a3a3a0] hover:text-white">Compliance & Security</a>
                         </li>
                         <li>
                             <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Integrations</a>
