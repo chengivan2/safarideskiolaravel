@@ -7,7 +7,7 @@
     <section class="relative h-[50vh] flex items-center justify-center overflow-hidden">
         <!-- Background Image -->
         <div class="absolute inset-0 z-0">
-            <img src="/images/safaridesk-terms-and-privacy-main-image.png" alt="Compliance & Security" class="w-full h-full object-cover">
+            <img src="/images/safaridesk-compliance-bg-image.png" alt="Compliance & Security" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black/50"></div>
         </div>
         <!-- Content -->
