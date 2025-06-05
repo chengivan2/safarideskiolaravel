@@ -90,7 +90,7 @@
         <div class="hidden md:hidden" id="mobile-menu">
             <div class="pt-2 pb-3 space-y-1 border-t border-[#e3e3e0] dark:border-[#2e2e2b]">
                 <a href="/" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Home</a>
-                <a href="/features" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Features</a>
+                <a href="/whyus" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Why Us</a>
                 <a href="/pricing" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Pricing</a>
                 <a href="/login" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Sign in</a>
                 <a href="/register" class="block pl-3 pr-4 py-2 text-base font-medium text-[#7ED957] hover:text-[#5bbf3a] transition">Sign up</a>
@@ -150,7 +150,7 @@
                     <h3 class="text-sm font-semibold text-white tracking-wider uppercase">Product</h3>
                     <ul class="mt-4 space-y-4">
                         <li>
-                            <a href="/features" class="text-sm text-[#a3a3a0] hover:text-white">Features</a>
+                            <a href="/whyus" class="text-sm text-[#a3a3a0] hover:text-white">Why Us</a>
                         </li>
                         <li>
                             <a href="/pricing" class="text-sm text-[#a3a3a0] hover:text-white">Pricing</a>
