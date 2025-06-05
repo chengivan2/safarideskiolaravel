@@ -17,11 +17,11 @@
     <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
             <h2 class="text-3xl font-bold mb-4">MISSION</h2>
-            <p class="text-lg">SafariDesk’s mission is to help businesses <span class="font-semibold">Build Better Customer Relationships</span> by providing a simple yet elegant platform to efficiently route, track, prioritize and solve customer support tickets.</p>
+            <p class="text-lg">SafariDesk’s mission is to empower support teams of all sizes to build better customer relationships by providing a simple, elegant, and affordable platform that efficiently routes, tracks, prioritizes, and resolves support tickets—transforming customer chaos into clear, manageable tasks.</p>
         </div>
         <div>
             <h2 class="text-3xl font-bold mb-4">VISION</h2>
-            <p class="text-lg">SafariDesk’s vision is to bring accountability and transparency to customer support by providing a robust platform that transforms the way businesses streamline and deliver quality customer support.</p>
+            <p class="text-lg">SafariDesk’s vision is to make customer support smooth and intuitive, empowering every user to deliver exceptional experiences, enjoy our easy-to-use software, and feel part of the SafariDesk community.</p>
         </div>
     </div>
 </section>
