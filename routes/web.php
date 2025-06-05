@@ -36,3 +36,7 @@ Route::get('/register', function () {
 Route::get('/terms', function () {
     return view('terms');
 });
+
+Route::get('/privacy', function () {
+    return view('privacy');
+});

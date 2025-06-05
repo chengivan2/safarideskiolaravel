@@ -185,7 +185,7 @@
                     <h3 class="text-sm font-semibold text-white tracking-wider uppercase">Legal</h3>
                     <ul class="mt-4 space-y-4">
                         <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Privacy</a>
+                            <a href="/privacy" class="text-sm text-[#a3a3a0] hover:text-white">Privacy</a>
                         </li>
                         <li>
                             <a href="/terms" class="text-sm text-[#a3a3a0] hover:text-white">Terms</a>
