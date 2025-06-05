@@ -113,7 +113,7 @@
             <h3 class="text-2xl font-bold mb-1">Enock Kipchumba</h3>
             <div class="text-[#7ED957] font-semibold mb-2">Founder & CEO</div>
             <div class="flex gap-4 mb-4">
-                <a href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition" target="_blank" rel="noopener">
+                <a title="Enock Kipchumba on LinkedIn" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition" target="_blank" rel="noopener">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="2" y="2" width="20" height="20" rx="3" stroke="#7ED957"/>
                         <path d="M7 10v6" stroke="#7ED957"/>
@@ -121,7 +121,7 @@
                         <path d="M11 10v6m0-6h2.5a2.5 2.5 0 0 1 2.5 2.5V16" stroke="#7ED957"/>
                     </svg>
                 </a>
-                <a href="mailto:Ruto.e@safaridesk.io" class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition">
+                <a title="Email Enock Kipchumba" href="mailto:Ruto.e@safaridesk.io" class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <rect x="3" y="5" width="18" height="14" rx="2" stroke="#7ED957"/>
                         <path d="M3 7l9 6 9-6" stroke="#7ED957"/>
@@ -131,7 +131,8 @@
         </div>
         <div>
             <h4 class="text-2xl font-bold mb-4">Let me know about your experience using our ticketing system</h4>
-            <p class="text-[#a3a3a0] mb-2">"I'm Enock, founder of SafariDesk When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department. We kept it simple, affordable, and powerful enough to scale. Let's connect on <a href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊and hey, if you're still not convinced, l'll personally pay you to use our system (okay.. maybe just with coffee)☕ ."</p>
+            <p class="text-[#a3a3a0] mb-2">"I'm Enock, founder of SafariDesk When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department. 
+                We kept it simple, affordable, and powerful enough to scale. Let's connect on <a title="Enock Kipchumba on LinkedIn"" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊and hey, if you're still not convinced, l'll personally pay you to use our system (okay.. maybe just with coffee)☕ ."</p>
             <div class="text-[#7ED957] font-semibold mt-4">— Enock Kipchumba, CEO</div>
         </div>
     </div>
