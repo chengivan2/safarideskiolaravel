@@ -26,7 +26,7 @@
 <section class="py-20 bg-white dark:bg-[#0f0f0e]">
     <div class="max-w-4xl mx-auto px-6 text-center mb-12">
         <h2 class="text-4xl md:text-5xl font-bold mb-4 text-[#1b1b18] dark:text-white">Why SafariDesk?</h2>
-        <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-4">SafariDesk is the all-in-one support solution your team needs—ticketing, built-in chat, asset management, internal tasking, and more—at just <span class="font-semibold text-[#7ED957]">$5 per agent/month</span> (or <span class="font-semibold text-[#FFA726]">$60 per agent/year</span>). Literally the cheapest cloud-hosted help desk you'll find.</p>
+        <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-4">SafariDesk is the all-in-one support solution your team needs—ticketing, built-in chat, asset management, internal tasking, and more—at just <span class="font-semibold text-[#7ED957]">$5 per agent/month</span> (or <span class="font-semibold text-[#FFA726]">$60 per agent/year</span>). The most affordable cloud-hosted help desk - no catch.</p>
     </div>
     <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
         <!-- All-in-One Ticketing -->
@@ -128,34 +128,29 @@
 
 <!-- CEO/Contact Section -->
 <section class="py-20 bg-[#232323] text-white">
-    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-        <div class="flex flex-col items-center md:items-start">
-            <img src="/images/safaridesk-ceo.jpg" alt="CEO Photo" class="w-32 h-32 rounded-full object-cover object-top shadow-lg mb-4">
-            <h3 class="text-2xl font-bold mb-1">Enock Kipchumba</h3>
-            <div class="text-[#7ED957] font-semibold mb-2">Founder & CEO</div>
-            <div class="flex gap-4 mb-4">
-                <a title="Enock Kipchumba on LinkedIn" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition" target="_blank" rel="noopener">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <rect x="2" y="2" width="20" height="20" rx="3" stroke="#7ED957" />
-                        <path d="M7 10v6" stroke="#7ED957" />
-                        <circle cx="7" cy="7" r="1.5" stroke="#7ED957" />
-                        <path d="M11 10v6m0-6h2.5a2.5 2.5 0 0 1 2.5 2.5V16" stroke="#7ED957" />
-                    </svg>
-                </a>
-                <a title="Email Enock Kipchumba" href="mailto:Ruto.e@safaridesk.io" class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                        <rect x="3" y="5" width="18" height="14" rx="2" stroke="#7ED957" />
-                        <path d="M3 7l9 6 9-6" stroke="#7ED957" />
-                    </svg>
-                </a>
-            </div>
+    <div class="max-w-2xl mx-auto px-6 flex flex-col items-center text-center">
+        <h4 class="text-2xl font-bold mb-4">Message from CEO</h4>
+        <p class="text-[#a3a3a0] mb-6">I'm Enock, founder of SafariDesk. When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department. We kept it simple, affordable, and powerful enough to scale. Let's connect on <a title="Enock Ruto on LinkedIn" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊 and hey, if you're still not convinced, I'll personally pay you to use our system (okay.. maybe just with coffee)☕ .</p>
+        <img src="/images/safaridesk-ceo.jpg" alt="CEO Photo" class="w-32 h-32 rounded-full object-cover object-top shadow-lg mb-4">
+        <h3 class="text-2xl font-bold mb-1">Enock Ruto</h3>
+        <div class="text-[#7ED957] font-semibold mb-2">Founder & CEO</div>
+        <div class="flex gap-4 justify-center mb-4">
+            <a title="Enock Ruto on LinkedIn" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition" target="_blank" rel="noopener">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="3" stroke="#7ED957" />
+                    <path d="M7 10v6" stroke="#7ED957" />
+                    <circle cx="7" cy="7" r="1.5" stroke="#7ED957" />
+                    <path d="M11 10v6m0-6h2.5a2.5 2.5 0 0 1 2.5 2.5V16" stroke="#7ED957" />
+                </svg>
+            </a>
+            <a title="Email Enock Ruto" href="mailto:Ruto.e@safaridesk.io" class="flex items-center gap-1 text-[#a3a3a0] hover:text-[#7ED957] transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="3" y="5" width="18" height="14" rx="2" stroke="#7ED957" />
+                    <path d="M3 7l9 6 9-6" stroke="#7ED957" />
+                </svg>
+            </a>
         </div>
-        <div>
-            <h4 class="text-2xl font-bold mb-4">Message from CEO</h4>
-            <p class="text-[#a3a3a0] mb-2">I'm Enock, founder of SafariDesk When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department.
-                We kept it simple, affordable, and powerful enough to scale. Let's connect on <a title="Enock Kipchumba on LinkedIn"" href=" https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊and hey, if you're still not convinced, l'll personally pay you to use our system (okay.. maybe just with coffee)☕ .</p>
-            <div class="text-[#7ED957] font-semibold mt-4">— Enock Kipchumba, CEO</div>
-        </div>
+        <div class="text-[#7ED957] font-semibold mt-2">— Enock Ruto, CEO</div>
     </div>
 </section>
 @endsection

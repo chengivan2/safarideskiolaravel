@@ -10,9 +10,6 @@
 
     <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
         <div class="text-center max-w-3xl mx-auto">
-            <div class="inline-flex items-center px-4 py-2 rounded-full bg-[#E6F7E6] dark:bg-[#0F3D0F] text-[#2E7D32] dark:text-[#7ED957] text-sm font-medium mb-6">
-                <span class="mr-2">🚀</span> Powerful features
-            </div>
             <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
                 Why <span class="text-[#7ED957]">SafariDesk</span>?
             </h1>
