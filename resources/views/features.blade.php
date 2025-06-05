@@ -108,16 +108,16 @@
                     <img src="/images/safaridesk-ticketing-workspace.jpg" alt="SafariDesk Ticketing Workspace" class="object-cover w-full h-full">
                 </div>
             </div>
-            <!-- Built-In Chat -->
+            <!-- Built-In Chat (alternate) -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-                <div class="order-2 md:order-1">
+                <div class="order-2 md:order-2">
                     <h3 class="text-2xl font-bold mb-2 text-[#1b1b18] dark:text-white flex items-center gap-2">
                         <svg class="w-8 h-8 text-[#7ED957] inline" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="14" rx="4" stroke="currentColor"/><path d="M8 10h8M8 14h4" stroke="currentColor"/></svg>
                         Built-In Chat
                     </h3>
                     <p class="text-lg text-[#706f6c] dark:text-[#a3a3a0] mb-2">Collaborate in real time with channels, direct messages, file sharing, and screenshare—no extra apps needed. Instantly connect with your team and customers, share files, and resolve issues faster with integrated chat.</p>
                 </div>
-                <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-[#181818] border border-[#e3e3e0] dark:border-[#2e2e2b] aspect-w-16 aspect-h-10">
+                <div class="order-1 md:order-1 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-[#181818] border border-[#e3e3e0] dark:border-[#2e2e2b] aspect-w-16 aspect-h-10">
                     <img src="/images/safaridesk-chat-module.jpg" alt="SafariDesk Chat Module" class="object-cover w-full h-full">
                 </div>
             </div>
@@ -134,20 +134,19 @@
                     <img src="/images/safaridesk-dashboard-support-overview.jpg" alt="SafariDesk Asset Management" class="object-cover w-full h-full">
                 </div>
             </div>
-            <!-- Internal Tasking -->
+            <!-- Internal Tasking (alternate) -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-                <div class="order-2 md:order-1">
+                <div class="order-2 md:order-2">
                     <h3 class="text-2xl font-bold mb-2 text-[#1b1b18] dark:text-white flex items-center gap-2">
                         <svg class="w-8 h-8 text-[#7ED957] inline" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor"/><path d="M7 9h10M7 13h6" stroke="currentColor"/></svg>
                         Internal Tasking
                     </h3>
                     <p class="text-lg text-[#706f6c] dark:text-[#a3a3a0] mb-2">Assign, prioritize, and track tasks internally—set due dates and monitor progress without leaving SafariDesk. Streamline your team's workflow and ensure nothing falls through the cracks.</p>
                 </div>
-                <div class="order-1 md:order-2 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-[#181818] border border-[#e3e3e0] dark:border-[#2e2e2b] aspect-w-16 aspect-h-10">
+                <div class="order-1 md:order-1 rounded-xl overflow-hidden shadow-lg bg-white dark:bg-[#181818] border border-[#e3e3e0] dark:border-[#2e2e2b] aspect-w-16 aspect-h-10">
                     <img src="/images/safaridesk-tasks-workspace.jpg" alt="SafariDesk Internal Tasking" class="object-cover w-full h-full">
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- CTA Section -->

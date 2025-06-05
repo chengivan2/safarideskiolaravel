@@ -107,7 +107,7 @@
 
 <!-- CEO/Contact Section -->
 <section class="py-20 bg-[#232323] text-white">
-    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         <div class="flex flex-col items-center md:items-start">
             <img src="/images/safaridesk-ceo.jpg" alt="CEO Photo" class="w-32 h-32 rounded-full object-cover shadow-lg mb-4">
             <h3 class="text-2xl font-bold mb-1">Enock Kipchumba</h3>
@@ -130,9 +130,9 @@
             </div>
         </div>
         <div>
-            <h4 class="text-2xl font-bold mb-4">Let me know about your experience using our ticketing system</h4>
-            <p class="text-[#a3a3a0] mb-2">"I'm Enock, founder of SafariDesk When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department. 
-                We kept it simple, affordable, and powerful enough to scale. Let's connect on <a title="Enock Kipchumba on LinkedIn"" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊and hey, if you're still not convinced, l'll personally pay you to use our system (okay.. maybe just with coffee)☕ ."</p>
+            <h4 class="text-2xl font-bold mb-4">Message from CEO</h4>
+            <p class="text-[#a3a3a0] mb-2">I'm Enock, founder of SafariDesk When we started building SafariDesk, we weren't trying to compete with the giants — we were solving a problem we faced ourselves: support systems that were overpriced, bloated, or just too complicated for small teams. So we built SafariDesk for real teams — the kind juggling tickets, emails, and internal tasks without a dedicated IT department. 
+                We kept it simple, affordable, and powerful enough to scale. Let's connect on <a title="Enock Kipchumba on LinkedIn"" href="https://www.linkedin.com/in/ruto-ke?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener" class="text-[#7ED957] hover:underline">LinkedIn</a> and be friends as we grow this together 😊and hey, if you're still not convinced, l'll personally pay you to use our system (okay.. maybe just with coffee)☕ .</p>
             <div class="text-[#7ED957] font-semibold mt-4">— Enock Kipchumba, CEO</div>
         </div>
     </div>
