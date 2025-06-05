@@ -46,14 +46,14 @@
                     <h3 class="text-2xl font-bold mb-2 text-[#1b1b18] dark:text-white">Basic</h3>
 
                     <div class="monthly-price">
-                        <div class="mt-2 flex items-baseline gap-4">
+                        <div class="mt-2 flex items-baseline gap-3">
                             <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$5</span>
                             <span class="text-lg text-gray-600 dark:text-gray-400">per agent / month (billed monthly)</span>
                         </div>
                     </div>
 
                     <div class="annual-price hidden">
-                        <div class="mt-2 flex items-baseline gap-4">
+                        <div class="mt-2 flex items-baseline gap-3">
                             <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$60</span>
                             <span class="text-lg text-gray-600 dark:text-gray-400">per agent / year (billed annually)</span>
                         </div>
