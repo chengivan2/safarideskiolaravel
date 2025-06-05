@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/features', function () {
-    return view('features');
+Route::get('/whyus', function () {
+    return view('whyus');
 });
 
 Route::get('/pricing', function () {
