@@ -92,8 +92,7 @@
                 <a href="/" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Home</a>
                 <a href="/whyus" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Why Us</a>
                 <a href="/pricing" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Pricing</a>
-                <a href="/login" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Sign in</a>
-                <a href="/register" class="block pl-3 pr-4 py-2 text-base font-medium text-[#7ED957] hover:text-[#5bbf3a] transition">Sign up</a>
+                <a href="/about" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">About</a>
             </div>
         </div>
     </header>
