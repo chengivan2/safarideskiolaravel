@@ -157,9 +157,6 @@
                         <li>
                             <a href="/compliance" class="text-sm text-[#a3a3a0] hover:text-white">Compliance & Security</a>
                         </li>
-                        <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Integrations</a>
-                        </li>
                     </ul>
                 </div>
 
@@ -183,9 +180,6 @@
                         </li>
                         <li>
                             <a href="/terms" class="text-sm text-[#a3a3a0] hover:text-white">Terms</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Cookie Policy</a>
                         </li>
                     </ul>
                 </div>
