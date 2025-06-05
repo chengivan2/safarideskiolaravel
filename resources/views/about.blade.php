@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Hero Section with fixed background -->
-<section class="relative flex flex-col justify-center items-center text-center overflow-hidden">
+<section class="relative py-2 flex flex-col justify-center items-center text-center overflow-hidden">
     <div class="absolute inset-0 bg-[#7ED957]/80 bg-[url('/images/safaridesk-hero-image-illustration.png')] bg-cover bg-center bg-fixed z-0"></div>
     <div class="relative z-10 flex flex-col items-center justify-center h-full w-full">
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">About SafariDesk</h1>
