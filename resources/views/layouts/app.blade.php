@@ -170,12 +170,6 @@
                             <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">About</a>
                         </li>
                         <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Careers</a>
-                        </li>
-                        <li>
                             <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Contact</a>
                         </li>
                     </ul>
