@@ -14,7 +14,7 @@
                 Why <span class="bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent">SafariDesk</span>?
             </h1>
             <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-2">SafariDesk is the all-in-one support solution your team needs—ticketing, built-in chat, asset management, internal tasking, and more—at just <span class="font-semibold text-[#7ED957]">$5 per agent/month</span> (or <span class="font-semibold text-[#FFA726]">$60 per agent/year</span>). Literally the cheapest cloud-hosted help desk you'll find.</p>
-            <p id="typing-anim" class="text-base md:text-lg text-[#1b1b18] dark:text-white mt-2 h-6"></p>
+            <p id="typing-anim" class="text-2xl bg-gradient-to-br from-green-500 via-lime-400 to-orange-400 bg-clip-text text-transparent mt-1"></p>
             <script>
                 const text = 'The most affordable cloud-hosted help desk - no catch.';
                 const typingElem = document.getElementById('typing-anim');

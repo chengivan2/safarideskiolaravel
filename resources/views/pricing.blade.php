@@ -47,14 +47,14 @@
                         
                         <div class="monthly-price">
                             <div class="mt-2 flex items-baseline gap-4">
-                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$15</span>
+                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$5</span>
                                 <span class="text-lg text-gray-600 dark:text-gray-400">per agent / month</span>
                             </div>
                         </div>
                         
                         <div class="annual-price hidden">
                             <div class="mt-2 flex items-baseline gap-4">
-                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$120</span>
+                                <span class="text-3xl font-extrabold text-[#7ED957] dark:text-[#7ED957]">$60</span>
                                 <span class="text-lg text-gray-600 dark:text-gray-400">per agent / year</span>
                             </div>
                             <div class="mt-1 text-[#7ED957] dark:text-[#7ED957] text-base font-semibold">
