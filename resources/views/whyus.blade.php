@@ -13,8 +13,8 @@
             <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
                 Why <span class="text-[#7ED957]">SafariDesk</span>?
             </h1>
-            <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-4">SafariDesk is the all-in-one support solution your team needs—ticketing, built-in chat, asset management, internal tasking, and more—at just <span class="font-semibold text-[#7ED957]">$5 per agent/month</span> (or <span class="font-semibold text-[#FFA726]">$60 per agent/year</span>). Literally the cheapest cloud-hosted help desk you'll find.</p>
-
+            <p class="text-lg md:text-xl text-[#706f6c] dark:text-[#a3a3a0] mb-2">SafariDesk is the all-in-one support solution your team needs—ticketing, built-in chat, asset management, internal tasking, and more—at just <span class="font-semibold text-[#7ED957]">$5 per agent/month</span> (or <span class="font-semibold text-[#FFA726]">$60 per agent/year</span>). Literally the cheapest cloud-hosted help desk you'll find.</p>
+            <p>The most affordable cloud-hosted help desk - no catch.</p>
         </div>
     </div>
 </section>
@@ -70,7 +70,7 @@
                 <img src="/images/safaridesk-dashboard-support-overview.jpg" alt="SafariDesk Asset Management" class="object-cover w-full h-full">
             </div>
         </div>
-        <!-- Built-In Chat (alternate) -->
+        <!-- Built-In Chat -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div class="order-2 md:order-2">
                 <h3 class="text-2xl font-bold mb-2 text-[#1b1b18] dark:text-white flex items-center gap-2">
