@@ -44,3 +44,7 @@ Route::get('/privacy', function () {
 Route::get('/compliance', function () {
     return view('compliance');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
