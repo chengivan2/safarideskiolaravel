@@ -55,6 +55,7 @@
                         <a href="/whyus" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Why Us</a>
                         <a href="/pricing" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Pricing</a>
                         <a href="/about" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">About</a>
+                        <a href="/contact" class="inline-flex items-center px-1 pt-1 text-sm font-medium border-b-2 border-transparent hover:border-[#7ED957] text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white transition">Contact</a>
                     </nav>
                 </div>
                 <div class="flex items-center">
@@ -93,6 +94,7 @@
                 <a href="/whyus" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Why Us</a>
                 <a href="/pricing" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Pricing</a>
                 <a href="/about" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">About</a>
+                <a href="/contact" class="block pl-3 pr-4 py-2 text-base font-medium text-[#706f6c] dark:text-[#a3a3a0] hover:text-[#1b1b18] dark:hover:text-white hover:bg-gray-50 dark:hover:bg-[#1b1b18] transition">Contact</a>
             </div>
         </div>
     </header>
