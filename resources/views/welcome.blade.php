@@ -9,7 +9,7 @@
     <div class="absolute inset-0 opacity-10 bg-grid-pattern -z-10"></div>
 
     <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
-        <div class="flex flex-col gap-5 items-center">
+        <div class="flex flex-col gap-6 items-center">
             <div class="text-center flex flex-col gap-[1.5rem] justify-center items-center w-full h-[55vh] px-2 md:px-6 lg:px-12">
 
                 <h1 class="max-w-3xl text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#1b1b18] dark:text-white">
@@ -22,8 +22,7 @@
 
             </div>
             <!-- Scroll Indicator -->
-            <div class="flex flex-col items-center my-2">
-                <span class="text-[#7ED957] text-sm mb-2">Scroll Down</span>
+            <div class="flex flex-col items-center my-3">
                 <div class="flex flex-col items-center space-y-1">
                     <svg class="w-6 h-6 text-[#7ED957] animate-shimmer-down delay-0" fill="none" viewBox="0 0 24 24">
                         <path d="M12 16l-5-5h10l-5 5z" fill="currentColor" />

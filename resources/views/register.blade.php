@@ -15,32 +15,17 @@
         </div>
         <div class="mt-8 bg-white dark:bg-[#1b1b18] py-8 px-6 shadow-xl rounded-lg border border-[#e3e3e0] dark:border-[#2e2e2b]">
             <form class="space-y-5" action="#" method="POST">
-                <div class="flex gap-4">
-                    <div class="w-1/2">
-                        <label for="first_name" class="block text-sm font-medium text-[#1b1b18] dark:text-white">First Name</label>
-                        <div class="mt-1 relative">
-                            <span class="absolute left-3 top-2.5 text-[#7ED957]">
-                                <!-- User Icon -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#7ED957" stroke-width="2">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A9 9 0 1112 21a9 9 0 01-6.879-3.196z" />
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </span>
-                            <input id="first_name" name="first_name" type="text" required placeholder="John" class="block w-full pl-10 pr-3 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
-                        </div>
-                    </div>
-                    <div class="w-1/2">
-                        <label for="last_name" class="block text-sm font-medium text-[#1b1b18] dark:text-white">Last Name</label>
-                        <div class="mt-1 relative">
-                            <span class="absolute left-3 top-2.5 text-[#7ED957]">
-                                <!-- User Icon -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#7ED957" stroke-width="2">
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A9 9 0 1112 21a9 9 0 01-6.879-3.196z" />
-                                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                            </span>
-                            <input id="last_name" name="last_name" type="text" required placeholder="Doe" class="block w-full pl-10 pr-3 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
-                        </div>
+                <div>
+                    <label for="name" class="block text-sm font-medium text-[#1b1b18] dark:text-white">Full Name</label>
+                    <div class="mt-1 relative">
+                        <span class="absolute left-3 top-2.5 text-[#7ED957]">
+                            <!-- User Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#7ED957" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A9 9 0 1112 21a9 9 0 01-6.879-3.196z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </span>
+                        <input id="name" name="name" type="text" required placeholder="John Doe" class="block w-full pl-10 pr-3 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
                     </div>
                 </div>
                 <div>
@@ -83,6 +68,44 @@
                         <input id="email" name="email" type="email" required placeholder="name@company.com" class="block w-full pl-10 pr-3 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
                     </div>
                 </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium text-[#1b1b18] dark:text-white">Password</label>
+                    <div class="mt-1 relative">
+                        <span class="absolute left-3 top-2.5 text-[#7ED957]">
+                            <!-- Lock Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#7ED957" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm6-10V7a4 4 0 10-8 0v2" />
+                            </svg>
+                        </span>
+                        <input id="password" name="password" type="password" required placeholder="••••••••" class="block w-full pl-10 pr-10 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
+                        <button type="button" tabindex="-1" class="absolute right-3 top-2.5 text-[#a3a3a0] focus:outline-none" onclick="togglePasswordVisibility('password', this)">
+                            <!-- Eye Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <label for="password_confirmation" class="block text-sm font-medium text-[#1b1b18] dark:text-white">Confirm Password</label>
+                    <div class="mt-1 relative">
+                        <span class="absolute left-3 top-2.5 text-[#7ED957]">
+                            <!-- Lock Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#7ED957" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm6-10V7a4 4 0 10-8 0v2" />
+                            </svg>
+                        </span>
+                        <input id="password_confirmation" name="password_confirmation" type="password" required placeholder="••••••••" class="block w-full pl-10 pr-10 py-2 rounded-md dark:bg-[#0f0f0e] text-white border border-[#23272f] placeholder-[#a3a3a0] focus:ring-[#7ED957] focus:border-[#7ED957]">
+                        <button type="button" tabindex="-1" class="absolute right-3 top-2.5 text-[#a3a3a0] focus:outline-none" onclick="togglePasswordVisibility('password_confirmation', this)">
+                            <!-- Eye Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
                 <div class="flex items-center mt-2">
                     <input id="terms" name="terms" type="checkbox" required class="h-4 w-4 text-[#7ED957] focus:ring-[#7ED957] border-[#23272f] rounded">
                     <label for="terms" class="ml-2 block text-sm text-[#706f6c] dark:text-[#a3a3a0]">
@@ -99,4 +122,19 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('scripts')
+<script>
+function togglePasswordVisibility(fieldId, btn) {
+    const input = document.getElementById(fieldId);
+    if (input.type === 'password') {
+        input.type = 'text';
+        btn.innerHTML = `<svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M13.875 18.825A10.05 10.05 0 0112 19c-4.477 0-8.268-2.943-9.542-7a9.956 9.956 0 012.042-3.338m3.087-2.872A9.956 9.956 0 0112 5c4.477 0 8.268 2.943 9.542 7a9.956 9.956 0 01-4.132 5.225M15 12a3 3 0 11-6 0 3 3 0 016 0z' /><path stroke-linecap='round' stroke-linejoin='round' d='M3 3l18 18' /></svg>`;
+    } else {
+        input.type = 'password';
+        btn.innerHTML = `<svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M15 12a3 3 0 11-6 0 3 3 0 016 0z' /><path stroke-linecap='round' stroke-linejoin='round' d='M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z' /></svg>`;
+    }
+}
+</script>
 @endsection
