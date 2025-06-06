@@ -169,7 +169,7 @@
                             <a href="/about" class="text-sm text-[#a3a3a0] hover:text-white">About</a>
                         </li>
                         <li>
-                            <a href="#" class="text-sm text-[#a3a3a0] hover:text-white">Contact</a>
+                            <a href="/contact" class="text-sm text-[#a3a3a0] hover:text-white">Contact</a>
                         </li>
                     </ul>
                 </div>
