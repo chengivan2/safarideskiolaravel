@@ -39,15 +39,25 @@
                     <h2 class="text-xl font-bold mb-3 text-[#1b1b18] dark:text-white">Contact Info</h2>
                     <div class="mb-4">
                         <div class="flex items-center mb-2">
-                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 2v6a2 2 0 002 2h6" /><path stroke-linecap="round" stroke-linejoin="round" d="M2 16v6a2 2 0 002 2h6" /></svg>
+                            <!-- Office/Building Icon -->
+                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 21V7a2 2 0 012-2h14a2 2 0 012 2v14M9 21V9m6 12V9m-6 0V5a2 2 0 012-2h2a2 2 0 012 2v4" />
+                            </svg>
                             <span class="text-[#1b1b18] dark:text-white">SafariDesk Inc.</span>
                         </div>
                         <div class="flex items-center mb-2">
-                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 2v6a2 2 0 002 2h6" /><path stroke-linecap="round" stroke-linejoin="round" d="M2 16v6a2 2 0 002 2h6" /></svg>
+                            <!-- Mail Icon -->
+                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a3 3 0 003.22 0L22 8m-19 8V8a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                            </svg>
                             <span class="text-[#1b1b18] dark:text-white">support@safaridesk.io</span>
                         </div>
                         <div class="flex items-center">
-                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 2v6a2 2 0 002 2h6" /><path stroke-linecap="round" stroke-linejoin="round" d="M2 16v6a2 2 0 002 2h6" /></svg>
+                            <!-- Phone Icon -->
+                            <svg class="w-5 h-5 text-[#7ED957] mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm0 14a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5a2 2 0 00-2 2v2zm14-14a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5a2 2 0 012-2h2zm0 14a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2h-2a2 2 0 00-2 2v2z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16 2v6a2 2 0 002 2h6" />
+                            </svg>
                             <span class="text-[#1b1b18] dark:text-white">+1 (555) 123-4567</span>
                         </div>
                     </div>
